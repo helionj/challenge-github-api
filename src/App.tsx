@@ -1,10 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Routes from 'Routes';
 
 function App() {
   return (
     <div className="App">
-      <h1>Challenge GitHub Api</h1>
+      <Routes/>
     </div>
   );
 }

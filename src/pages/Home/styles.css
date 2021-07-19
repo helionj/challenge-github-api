@@ -1,0 +1,34 @@
+.home-main-container {
+  padding: 30px 40px;
+}
+
+.home-main-container h1 {
+  font-size: 28px;
+}
+
+.home-main-container p {
+  font-size: 14px;
+  color: #7e7e7e;
+  margin-bottom: 27px;
+}
+
+.home-main-container button {
+  height: 40px;
+  width: 100px;
+}
+.home-main-container h6 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .home-main-container h1 {
+    font-size: 48px;
+  }
+
+  .home-main-container p {
+    font-size: 24px;
+    margin-bottom: 27px;
+  }
+}

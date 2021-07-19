@@ -1,0 +1,138 @@
+.profile-search-main-container {
+  padding: 20px 10px;
+}
+
+.search-card-container {
+  background-color: #e6f7ff;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.search-card-container h1 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.search-input {
+  max-width: 298px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 24px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.search-button {
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+}
+.search-button:hover{
+  color: #ffffff;
+}
+
+.result-card-container {
+  padding: 10px;
+  margin-top: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  width: 247px;
+  height: 247px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.image-container img {
+  width: 100%;
+}
+.info-container {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.txt-head {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1890ff;
+}
+
+@media (min-width: 576px) {
+  .profile-search-main-container {
+    padding: 20px;
+  }
+
+  .search-card-container h1 {
+    font-size: 28px;
+  }
+
+  .search-card-container {
+    padding: 30px 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .result-card-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .info-container {
+    height: 247px;
+    width: calc(100vw - 340px);
+  }
+
+  .image-container {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 996px) {
+  .profile-search-main-container {
+    padding: 40px 70px;
+  }
+
+  .info-container {
+    width: calc(100vw - 441px);
+  }
+
+  .search-card-container h1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .profile-search-main-container {
+    padding: 54px 90px;
+  }
+
+  .info-container {
+    width: calc(100vw - 481px);
+  }
+
+  .search-card-container h1 {
+    font-size: 38px;
+  }
+}
